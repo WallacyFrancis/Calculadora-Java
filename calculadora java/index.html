@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora - Java</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="java.js"></script>
+
+</head>
+<body>
+
+	<div id="container">
+		<div class="txt_box">
+			<input type="text" id="result" name="result" class="txt" disabled="disable">
+			<br>
+			<input type="text" name="campo_txt" id="campo_txt" class="txt" onkeydown="verificaValor()">
+		</div>
+
+		<div class="botons">
+			
+			<div class="linha">
+				<input type="submit" name="1" class="btn" value="1" onclick="com1()">
+				<input type="submit" name="2" class="btn" value="2" onclick="com2()">
+				<input type="submit" name="3" class="btn" value="3" onclick="com3()">
+				<input type="submit" name="m" class="btn" value="+" onclick="sum()">
+			</div>
+
+			<div class="linha">
+				<input type="submit" name="4" class="btn" value="4" onclick="com4()">
+				<input type="submit" name="5" class="btn" value="5" onclick="com5()">
+				<input type="submit" name="6" class="btn" value="6" onclick="com6()">
+				<input type="submit" name="mn" class="btn" value="-" onclick="sub()">
+			</div>
+
+			<div class="linha">
+				<input type="submit" name="7" class="btn" value="7" onclick="com7()">
+				<input type="submit" name="8" class="btn" value="8" onclick="com8()">
+				<input type="submit" name="9" class="btn" value="9" onclick="com9()">
+				<input type="submit" name="v" class="btn" value="*" onclick="mult()">
+			</div>
+
+			<div class="linha">
+				<input type="submit" name="c" class="btn" value="C" onclick="compC()">
+				<input type="submit" name="p" class="btn" value="." onclick="comp()">
+				<input type="submit" name="0" class="btn" value="0" onclick="com0()">
+				<input type="submit" name="d" class="btn" value="/" onclick="div()">
+			</div>
+
+			<div class="linha">
+				<input type="submit" name="i" class="btn_i" value="=" onclick="igual()">
+			</div>
+
+
+			
+			
+			
+		
+		</div>
+
+
+	</div>
+
+
+	
+	
+</body>
+</html>
