@@ -1,2 +1,2 @@
 # Calculadora-Java
-Calculadora web desenvolvida em aplicação Java escript
+Calculadora web desenvolvida em aplicação Javascript
